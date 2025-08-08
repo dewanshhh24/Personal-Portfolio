@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import React, { ReactNode } from "react";
 import { Raleway } from "next/font/google";
 import Particles from "../portfolio-react/Particles";
+import BackToTop from "../components/BackToTop";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <BackToTop />
         </div>
       </body>
     </html>

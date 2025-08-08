@@ -302,7 +302,7 @@ background-image:radial-gradient(farthest-side circle at var(--pointer-x) var(--
 .pc-details {
   width: 100%;
   position: absolute;
-  top: 3em;
+  top: 2em;
   display: flex;
   flex-direction: column;
 }
@@ -322,7 +322,7 @@ background-image:radial-gradient(farthest-side circle at var(--pointer-x) var(--
 .pc-details p {
   font-weight: 600;
   position: relative;
-  top: -12px;
+  top: -10px;
   white-space: nowrap;
   font-size: 16px;
   margin: 0 auto;
@@ -365,7 +365,7 @@ background-image:radial-gradient(farthest-side circle at var(--pointer-x) var(--
   }
 
   .pc-details h3 {
-    font-size: min(4svh, 2.5em);
+    font-size: min(4svh, 3.5em);
   }
 
   .pc-details p {
@@ -414,11 +414,12 @@ background-image:radial-gradient(farthest-side circle at var(--pointer-x) var(--
   }
 
   .pc-details h3 {
-    font-size: min(3.5svh, 2em);
+    font-size: min(2.8svh, 2em);
   }
 
   .pc-details p {
-    font-size: 12px;
+    font-size: 15px;
+    padding-top: 2px;
     top: -8px;
   }
 
